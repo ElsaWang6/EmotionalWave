@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sad</title>
+    <link rel="icon" href="../favicon1.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #3a3a3a, #5555aa);
+            background-size: 200% 200%;
+            animation: gradientAnimation 6s infinite alternate;
+            font-family: monospace;
+            text-align: center;
+            color: white;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .ascii-art {
+            font-size: 1.3em;
+            white-space: pre;
+            line-height: 1.4;
+            margin-bottom: -10px;
+        }
+        .home-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 15px;
+            background: #b6adcb;
+            color: rgb(46, 37, 61);
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .home-button:hover {
+            background: #ffffff;
+        }
+
+        .text {
+            font-size: 1.5em;
+            max-width: 80%;
+            margin-bottom: 80px;
+            font-family: "Doto";
+            font-weight: bold;
+            color: #9a91a8;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="home-button">HOME</a>
+    <div class="ascii-art">
+        <pre>
+        ------               _____
+       /      \ ___\     ___/    ___
+    --/-  ___  /    \/  /  /    /   \
+   /     /           \__     //_     \
+  /                     \   / ___     |
+  |           ___       \/+--/        /
+   \__           \       \           /
+      \__                 |          /    
+     \     /____      /  /       |   /     
+      _____/         ___       \/  /\      
+           \__      /      /    |    |     
+         /    \____/   \       /   //                                 
+     // / / // / /\    /-_-/\//-__-           
+      /  /  // /   \__// / / /  //
+     //   / /   //   /  // / // /
+      /// // / /   /  //  / //
+   //   //       //  /  // / /
+     / / / / /     /  /    /
+  ///  / / /  //  // /  // //
+     ///    /    /    / / / /
+///  /    // / /  // / / /  /
+   // ///   /      /// / /
+        </pre>
+    </div>
+    <div class="text">When you're feeling sad, the world seems quieter, like a sea covered in heavy clouds, with waves rising and falling unnoticed. Whatever is making you sad is real and deserves to be acknowledged. Be gentle with yourself and let time slowly smooth out the ripples in your heart. There’s no need to rush to feel better—just give yourself some space, and warmth and light will find their way back to you.</div>
+</body>
+</html>

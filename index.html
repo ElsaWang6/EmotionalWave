@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Wave</title>
+    <link rel="icon" href="favicon1.ico" type="image/x-icon">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: linear-gradient(45deg, #ffe065, #81ddff, #84f0ec, #6ad5ff);
+            background-size: 200% 200%;
+            animation: gradientAnimation 6s infinite alternate;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .title {
+            position: absolute;
+            top: 30%;
+            left: 66%;
+            transform: translateX(-50%);
+            font-size: 2.8em;
+            font-weight: bold;
+            color: white;
+            font-family: "Doto";
+        }
+
+        .prose {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            width: 40%;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: white;
+            font-family: "Doto";
+            font-weight: bold;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 65%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            text-align: center;
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+            transition: background 0.3s ease-in-out;
+            font-family: "PlaywriteCUGuides-Regular";
+        }
+
+        .button:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">Emotional Waves</div>
+    <div class="prose">
+        <p>“Emotions rise and fall like ocean waves, surging and retreating, leaving behind traces of varying depth on the shores of the heart. Sometimes, they are like the gentle tide at dawn, softly lapping against the soul, bringing warmth and serenity. Other times, they resemble towering waves in a storm, crashing violently, tearing through the illusion of calm, pulling one into the depths. Joy sparkles at the crest, sorrow sinks into the trough, anxiety lurks like an undercurrent, while tranquility is but a fleeting ebb. Yet no matter how the waves churn, the ocean remains the ocean, and the heart remains the heart. In the end, emotions will always find their balance, like the tide under the night sky, quietly making peace with the world.”</p>
+    </div>
+    
+    <div class="button-container">
+        <a href="./page1/index.html" class="button">Record Today's Mood</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anxious</title>
+    <link rel="icon" href="../favicon1.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(45deg, #4d1515, #ff6a6a);
+            background-size: 200% 200%;
+            animation: gradientAnimation 6s infinite alternate;
+            font-family: monospace;
+            color: white;
+            padding: 5%;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .ascii-art {
+            font-size: 2.2em;
+            white-space: pre;
+            line-height: 1.2;
+            width: 45%;
+        }
+        .home-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px 15px;
+            background: #96684c;
+            color: rgb(61, 46, 37);
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .home-button:hover {
+            background: #ffffff;
+        }
+
+        .text {
+            font-size: 1.2em;
+            width: 45%;
+            text-align: right;
+            font-family: "Doto";
+            font-weight: bold;
+            color: #dcbba6;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="home-button">HOME</a>
+    <div class="ascii-art">
+        <pre>
+   ((  "####@@!!$$    ))
+       `#####@@!$$`  ))
+    ((  '####@!!$:
+   ((  ,####@!!$:   ))
+       .###@!!$:
+       `##@@!$:
+        `#@!!$
+  !@#    `#@!$:       @#$
+   #$     `#@!$:       !@!
+            '@!$:
+        '`\   "!$: /`'
+           '\  '!:/'
+             "\ : /"
+  -."-/\\\-."//.-"/:`\."-.JrS"."-=_\\
+" -."-.\\"-."//.-".`-."_\\-.".-\".-//
+        </pre>
+    </div>
+    <div class="text">
+        Anxiety is like a restless sea, with invisible waves pushing you forward without a clear direction. Maybe there are too many thoughts tangled together, making it hard to find stillness. Take a deep breath and try to focus on this moment, even if only for a little while. No matter where your anxiety comes from, it won’t last forever—the storm will pass, and the sea will be calm again.
+    </div>
+</body>
+</html>
